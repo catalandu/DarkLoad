@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InnerPeace Loading</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+  	<!--Početak lijeve strane-->
+    <main>
+      <section class="prozirno">
+        <div class="glavno">
+          <div class="user">
+            <img src ="https://cdn.discordapp.com/attachments/799642807576690728/830317591927062578/PicsArt_01-15-07.37.42.png" class = "logounutra">
+            <h3>InnerPeace Leaks</h3>
+            <p>Join us on https://discord.gg/KaUueT3PdD</p>
+          </div>
+          <div class="links">
+            <div class="link">
+              <img src="https://cdn.discordapp.com/attachments/798612060211511406/799712815770370048/instagram.png" alt="" />
+              <h2>InnerPeace Leaks Website</h2>
+            </div>
+            <div class="link">
+              <img src="https://cdn.discordapp.com/attachments/798612060211511406/799713254170951681/youtube.png" alt="" />
+              <h2>InnerPeace Leaks</h2>
+            </div>
+            <div class="link">
+              <img src="https://cdn.discordapp.com/attachments/798612060211511406/799713589631909908/facebook.png" alt="" />
+              <h2>InnerPeace Leaks</h2>
+            </div>
+            <div class="link">
+              <img src="https://cdn.discordapp.com/attachments/798612060211511406/799714478777827388/Webp.net-resizeimage.png" alt="" />
+              <h2>https://discord.gg/KaUueT3PdD</h2>
+            </div>
+          </div>
+          <div class="pro">
+            <h1 class="lelo">Loading...</h1>
+            <h4> Welcome To City</h4>
+            <h4 style="color:rgb(35, 4, 43);font: size 100;px;">Press space to stop music</h4>
+            <img src="ss" alt="" />
+          </div>
+        </div>
+        <!--Kraj lijeve strane-->
+        <div class="imeservera">
+          <div class="status">
+            <h1> Dark   Roleplay</h1> 
+            <input type="text" />
+          </div>
+          <div class="cards">
+            <div class="kartica">
+              <img src="https://cdn.discordapp.com/attachments/798612060211511406/799755603345539072/Webp.net-resizeimage_9.png" alt="" />
+              <div class="kartica-info">
+                <p style="font-size:24px;">Free Guns</p>  
+                <div class="traka"></div>
+              </div>
+            </div>
+            <div class="kartica">
+              <img src="https://cdn.discordapp.com/attachments/798612060211511406/799755417307578388/Webp.net-resizeimage_8.png" alt="" />
+              <div class="kartica-info">
+                <p style="color:rgb(14, 1, 19);font-size:24px;">Top Economy</p></p>
+                <div class="traka"></div>
+              </div>
+            </div>
+            <div class="kartica">
+              <img src="https://cdn.discordapp.com/attachments/798612060211511406/799755307990384660/Webp.net-resizeimage_7.png" alt="" />
+              <div class="kartica-info">
+                <p style="font-size:24px;">Active staff</p>
+                <div class="traka"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--Krugovi-->
+    <div class="krug1"></div>
+    <div class="krug2"></div>
+    
+  </body>
+</html>
+
+<!--Dio za muziku-->
+<!--Dio za muziku-->
+<script src="js/script.js"></script>
+
+
+<audio id="Loading" autoplay >
+  <source src="music/denajpederagic.mp3" type="audio/mp3">
+</audio>
+<script>
+var vid = document.getElementById("Loading");
+vid.volume = 0.04
+
+
+var play = true;
+var myAudio = document.getElementById("Loading");
+
+
+myAudio.volume = 0.1;
+
+
+function onKeyDown(event) {
+      switch (event.keyCode) {
+          case 32: //SpaceBar                    
+              if (play) {
+                  myAudio.pause();
+                  play = false;
+              } else {
+                  myAudio.play();
+                  play = true;
+              }
+              break;
+      }
+return false;
+}
+window.addEventListener("keydown", onKeyDown, false);
+
+
+
+</script>
+
+</body>
+</html>
